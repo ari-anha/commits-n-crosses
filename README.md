@@ -3,9 +3,9 @@
 Game Board:
 
     |---|---|---|
-    |   |   |   |
+    |   |   | O |
     |---|---|---|
-    |   |   |   |
+    |   | X |   |
     |---|---|---|
     |   |   |   |
     |---|---|---|
@@ -46,8 +46,8 @@ To make the first move Player 1 should open README.md in a text editor, add the 
     git push -u origin game1
 
 Enter password when prompted. If it's on the command line, there will be no output when you type, just hit enter once you've typed it.
-  
- After the first move, Player 2 should fetch the changes, and check out the game branch.
+
+After the first move, Player 2 should fetch the changes, and check out the game branch.
 
     git fetch
     git checkout game1
